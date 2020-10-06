@@ -1,0 +1,69 @@
+.products {
+  margin: 30px;
+}
+
+.iPhone {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.iPhone h1 {
+  font-size: 30px;
+}
+
+.iPhone ul {
+  margin-top: 20px;
+}
+
+.iPhone ul li {
+  display: block;
+  float: left;
+  padding-right: 50px;
+}
+
+.iPhone ul li img {
+  width: 200px;
+}
+
+.iPhone ul li button {
+  background-color: royalblue;
+  height: 25px;
+  border: none;
+  color: white;
+}
+
+#myli {
+  display: block;
+  float: left;
+  padding-right: 0px;
+}
+.huawei {
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.huawei h1 {
+  font-size: 30px;
+  padding-top: 250px;
+}
+
+.huawei ul {
+  margin-top: 20px;
+}
+
+.huawei ul li {
+  display: block;
+  float: left;
+  padding-right: 50px;
+}
+
+.huawei ul li img {
+  width: 200px;
+}
+
+.huawei ul li button {
+  background-color: royalblue;
+  height: 25px;
+  border: none;
+  color: white;
+}
