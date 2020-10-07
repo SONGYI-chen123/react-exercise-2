@@ -3,8 +3,8 @@ import imgPath from '../assets/product_image_placeholder.png';
 import '../styles/products.css';
 
 class Products extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       products: [
         { category: '', price: '', name: '' },
@@ -38,19 +38,19 @@ class Products extends Component {
               <p>{this.state.products[0].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[0].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
             <li>
               <p>{this.state.products[1].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[1].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
             <li id="myli">
               <p>{this.state.products[2].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[2].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
           </ul>
         </div>
@@ -61,19 +61,19 @@ class Products extends Component {
               <p>{this.state.products[3].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[3].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
             <li>
               <p>{this.state.products[4].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[4].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
             <li id="myli">
               <p>{this.state.products[5].name}</p>
               <img src={imgPath} alt="图片加载中..." />
               <p>{this.state.products[5].price}</p>
-              <button>add to cart</button>
+              <button onClick={this.props.AddToShoppingCart}>add to cart</button>
             </li>
           </ul>
         </div>
