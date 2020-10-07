@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="header">
         <h1>Store</h1>
         <img src={imgPath} alt="图片加载中..."></img>
-        <p>0</p>
+        <p>{this.props.count}</p>
       </div>
     );
   }
